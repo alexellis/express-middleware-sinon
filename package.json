@@ -1,0 +1,17 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha sinon_tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "express": "^4.13.4",
+    "mocha": "^2.4.3",
+    "sinon": "^1.17.3"
+  }
+}
