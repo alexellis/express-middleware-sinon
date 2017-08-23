@@ -30,7 +30,7 @@ Stubs can be used to return canned values from method calls, either by extending
 **Stubbing a new method**
 
 ```
-var sum = sinon.stub();
+var func = sinon.stub();
 func.returns(10)
 console.log(func(5,6));   // Gives 10!
 ```
